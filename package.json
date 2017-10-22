@@ -2,6 +2,7 @@
   "name": "@nju33/react-separator",
   "version": "0.1.0",
   "private": true,
+  "main": "./Separator.js",
   "dependencies": {
     "lodash.throttle": "^4.1.1",
     "prop-types": "^15.6.0",
@@ -13,9 +14,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "compile": "babel src/Separator.js -o Separator.js"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
   }
 }
