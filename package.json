@@ -1,6 +1,6 @@
 {
   "name": "@nju33/react-separator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./Separator.js",
   "homepage": "https://nju33.github.io/react-separator/",
   "dependencies": {
