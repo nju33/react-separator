@@ -1,0 +1,2 @@
+body{margin:0;padding:0;font-family:sans-serif}.item,.list{display:-ms-flexbox;display:flex}.item{height:100vh;-ms-flex-direction:column;flex-direction:column;-ms-flex:auto;flex:auto}.item:first-child{background:#222}.item:nth-child(3){background:#888}.item:nth-child(5){background:#ccc}.item--horizontal{-ms-flex:auto;flex:auto}.item--horizontal:nth-child(3){background:#888}
+/*# sourceMappingURL=main.33573f68.css.map*/
