@@ -130,6 +130,12 @@ class Separator extends Component {
     return this.state.active !== nextState.active;
   }
 
+  componentDidMount() {
+    if (this.element.previousElementSibling === null) {
+      throw new Error('<Separator/> can not be the first element');
+    }
+  }
+
   render() {
     const {style, ...otherProps} = this.props;
 
